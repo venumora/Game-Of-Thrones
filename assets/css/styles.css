@@ -78,29 +78,15 @@ a {
 }
 
 .text-display {
-	color: #5E5E5E;
-	font: bold 20px arial;
+	color: #FFF;
+	font: bold 3vmin arial;
 	text-decoration: none;
 	text-align: center;
 	padding: 10px 0px;
 	word-wrap: break-word;
 }
 
-.fill {
-	fill: #194f90;
-}
 
-.won
-{
-	fill: #c84c66;
-	color: #c84c66;
-}
-
-.lost
-{
-	fill: #b7ba0a;
-	color: #b7ba0a;
-}
 
 .left-50 {
 	left: 50px;
@@ -112,4 +98,145 @@ a {
 
 .pos-f {
 	position: fixed;
+}
+
+.modal--bg {
+	opacity: 0.9;
+	background-color: #000;
+	z-index: 10;
+}
+
+.modal--img {
+	background: url(../images/got-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	opacity: 1;
+	z-index: 0;
+}
+
+.got {
+	z-index: 20;
+}
+
+.got__house-list--item {
+	display: block;
+}
+
+.got-ha {
+    left: -62px;
+    top: -116px;
+}
+
+.got-hm {
+    left: -268px;
+    top: -116px;
+}
+
+.got-hg {
+    left: -474px;
+    top: -116px;
+}
+
+.got-hc {
+    left: -680px;
+    top: -116px;
+}
+
+.got-hl {
+    left: -886px;
+    top: -116px;
+}
+
+.got-hs {
+    left: -62px;
+    top: -428px;
+}
+
+.got-ht {
+    left: -268px;
+    top: -428px;
+}
+
+.got-htr {
+    left: -474px;
+    top: -428px;
+}
+
+.got-hb {
+    left: -680px;
+    top: -428px;
+}
+
+.got-htu {
+    left: -886px;
+    top: -428px;
+}
+
+.got__house-list {
+	margin-top: 20px;
+}
+.got__house-list--item {
+    list-style: none;
+    height: 283px;
+    overflow: hidden;
+	margin-left: 10px;
+}
+
+.got__house-list--item a {
+	padding: 10px;
+	display: block;
+	z-index: 30;
+}
+
+.got__house-list--item__img {
+	width: 600%;
+}
+
+.mr-t-10 {
+	margin-top: 10px;
+}
+
+.player {
+	opacity: 0.9;
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.player__me {
+	background-color: #194f90;
+}
+
+.player__enemy {
+	background-color: #c84c66;
+}
+
+.player__enemy--current {
+	background-color: #b7ba0a;
+}
+
+.got__house-list--item a:hover > .player {
+	display: flex;
+}
+
+.won
+{
+	background-color: green;
+}
+
+.lost
+{
+	background-color: red;
 }
