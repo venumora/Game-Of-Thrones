@@ -13,11 +13,11 @@
 				'got-ha': {id: 'got-ha', name: 'House Arryn', healthPoints: 80, attack: 6, counterAttack: 5, defeated: false},
 				'got-hm': {id: 'got-hm', name: 'House Mormont', healthPoints: 110, attack: 7, counterAttack: 6, defeated: false},
 				'got-hg': {id: 'got-hg', name: 'House Geryjoy', healthPoints: 95, attack: 8, counterAttack: 7, defeated: false},
-				'got-hc': {id: 'got-hc', name: 'House Clegane', healthPoints: 90, attack: 6, counterAttack: 8, defeated: false},
+				'got-hc': {id: 'got-hc', name: 'House Clegane', healthPoints: 50, attack: 6, counterAttack: 8, defeated: false},
 				'got-hl': {id: 'got-hl', name: 'House Lannister', healthPoints: 120, attack: 7, counterAttack: 9, defeated: false},
 				'got-hs': {id: 'got-hs', name: 'House Stark', healthPoints: 130, attack: 88, counterAttack: 5, defeated: false},
 				'got-ht': {id: 'got-ht', name: 'House Tyrell', healthPoints: 100, attack: 6, counterAttack: 6, defeated: false},
-				'got-htr': {id: 'got-htr', name: 'House Targaryen', healthPoints: 105, attack: 7, counterAttack: 7, defeated: false},
+				'got-htr': {id: 'got-htr', name: 'House Targaryen', healthPoints: 105, attack: 7, counterAttack: 50, defeated: false},
 				'got-hb': {id: 'got-hb', name: 'House Baratheon', healthPoints: 150, attack: 8, counterAttack: 8, defeated: false},
 				'got-htu': {id: 'got-htu', name: 'House Tully', healthPoints: 85, attack: 6, counterAttack: 9, defeated: false}
 			}
