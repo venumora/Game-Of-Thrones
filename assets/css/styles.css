@@ -324,3 +324,94 @@ a {
 		transform: scale(1.5);
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.got__house-list--item {
+		width: 80px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.container{
+		padding: 0px;
+		margin: 0px;
+	}
+	.got-ha-wrapper {
+		left: 0px;
+		top: 0px;
+	}
+
+	.got-hm-wrapper {
+		left: 60px;
+		top: 0px;
+	}
+
+	.got-hg-wrapper {
+		left: 120px;
+		top: 0px;
+	}
+
+	.got-hc-wrapper {
+		left: 180px;
+		top: 0px;
+	}
+
+	.got-hl-wrapper {
+		left: 240px;
+		top: 0px;
+	}
+
+	.got-hs-wrapper {
+		left: 0px;
+		top: 100px;
+	}
+
+	.got-ht-wrapper {
+		left: 60px;
+		top: 100px;
+	}
+
+	.got-htr-wrapper {
+		left: 120px;
+		top: 100px;
+	}
+
+	.got-hb-wrapper {
+		left: 180px;
+		top: 100px;
+	}
+
+	.got-htu-wrapper {
+		left: 240px;
+		top: 100px;
+	}
+
+	.got{
+		padding-left: 5px;
+	}
+
+	.transform-enemy {
+		top: 250px;
+		right: 0;
+		left: 240px;
+		transform: scale(1);
+	}
+
+	.transform-me {
+		top: 250px;
+		left: 5px;
+		transform: scale(1);
+	}
+
+	.buttons-container {
+		top: 400px;
+		left: 20px;
+	}
+
+	.lord {
+		top: 100px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		transform: scale(1.5);
+	}
+}
