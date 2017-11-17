@@ -96,8 +96,17 @@ a {
 	bottom: 50px;
 }
 
+.buttons-container {
+	top: 450px;
+	left: 307px;
+}
+
 .pos-f {
 	position: fixed;
+}
+
+.text-align-center {
+	text-align: center;
 }
 
 .modal--bg {
@@ -106,80 +115,120 @@ a {
 	z-index: 10;
 }
 
-.modal--img {
-	background: url(../images/got-bg.jpg);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	opacity: 1;
-	z-index: 0;
-}
-
 .got {
 	z-index: 20;
 }
 
-.got__house-list--item {
-	display: block;
-}
-
 .got-ha {
-    left: -62px;
-    top: -116px;
+	left: -62px;
+	top: -116px;
 }
 
 .got-hm {
-    left: -268px;
-    top: -116px;
+	left: -268px;
+	top: -116px;
 }
 
 .got-hg {
-    left: -474px;
-    top: -116px;
+	left: -474px;
+	top: -116px;
 }
 
 .got-hc {
-    left: -680px;
-    top: -116px;
+	left: -680px;
+	top: -116px;
 }
 
 .got-hl {
-    left: -886px;
-    top: -116px;
+	left: -886px;
+	top: -116px;
 }
 
 .got-hs {
-    left: -62px;
-    top: -428px;
+	left: -62px;
+	top: -428px;
 }
 
 .got-ht {
-    left: -268px;
-    top: -428px;
+	left: -268px;
+	top: -428px;
 }
 
 .got-htr {
-    left: -474px;
-    top: -428px;
+	left: -474px;
+	top: -428px;
 }
 
 .got-hb {
-    left: -680px;
-    top: -428px;
+	left: -680px;
+	top: -428px;
 }
 
 .got-htu {
-    left: -886px;
-    top: -428px;
+	left: -886px;
+	top: -428px;
+}
+
+.got-ha-wrapper {
+	left: 0px;
+	top: 0px;
+}
+
+.got-hm-wrapper {
+	left: 160px;
+	top: 0px;
+}
+
+.got-hg-wrapper {
+	left: 320px;
+	top: 0px;
+}
+
+.got-hc-wrapper {
+	left: 480px;
+	top: 0px;
+}
+
+.got-hl-wrapper {
+	left: 640px;
+	top: 0px;
+}
+
+.got-hs-wrapper {
+	left: 0px;
+	top: 200px;
+}
+
+.got-ht-wrapper {
+	left: 160px;
+	top: 200px;
+}
+
+.got-htr-wrapper {
+	left: 320px;
+	top: 200px;
+}
+
+.got-hb-wrapper {
+	left: 480px;
+	top: 200px;
+}
+
+.got-htu-wrapper {
+	left: 640px;
+	top: 200px;
 }
 
 .got__house-list {
 	margin-top: 20px;
 }
+
 .got__house-list--item {
-    list-style: none;
-    height: 283px;
-    overflow: hidden;
+	list-style: none;
+	height: 283px;
+	overflow: hidden;
 	margin-left: 10px;
+	display: block;
 }
 
 .got__house-list--item a {
@@ -196,47 +245,40 @@ a {
 	margin-top: 10px;
 }
 
-.player {
-	opacity: 0.9;
-	width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 20;
-    color: #FFF;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.transform {
+	transform: scale(0.6);
+	-webkit-transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+	position: absolute;
+}
+
+.transform:hover {
+	transform: scale(0.7);
+}
+
+.transform-enemy {
+	top: 450px;
+	right: 0;
+	left: 640px;
+	transform: scale(0.8);
+}
+
+.transform-me {
+	top: 450px;
+	left: 0;
+	transform: scale(0.8);
 }
 
 .is-hidden {
 	display: none;
 }
 
-.player__me {
-	background-color: #194f90;
-}
-
-.player__enemy {
-	background-color: #c84c66;
-}
-
-.player__enemy--current {
-	background-color: #b7ba0a;
-}
-
-.got__house-list--item a:hover > .player {
-	display: flex;
-}
-
-.won
-{
-	background-color: green;
-}
-
-.lost
-{
-	background-color: red;
+.lord {
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transform: scale(1.5);
 }
