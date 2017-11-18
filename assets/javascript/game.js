@@ -97,6 +97,7 @@
 					$('#attack').addClass('is-hidden')
 					this.myHouse = null;
 					$('#message').html("All men must die!!<br/>Restart Game!!");
+					$('.js-player').unbind('click');
 				} else {
 					this.myHouse.attack += this.initialAttack;
 				}
@@ -111,6 +112,7 @@
 					$('#attack').addClass('is-hidden')
 					$('#restart').removeClass('is-hidden');
 					$('#message').html("You are the LORD of seven kingdoms!!<br/> Thank you for playing, my Lord!!");
+					$('.js-player').unbind('click');
 				}
 			}
 		}

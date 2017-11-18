@@ -78,17 +78,6 @@ a {
 	position: absolute;
 }
 
-.text-display {
-	color: #FFF;
-	font: bold 3vmin arial;
-	text-decoration: none;
-	text-align: center;
-	padding: 10px 0px;
-	word-wrap: break-word;
-}
-
-
-
 .left-50 {
 	left: 50px;
 }
@@ -98,8 +87,18 @@ a {
 }
 
 .buttons-container {
-	top: 450px;
-	left: 307px;
+	top: 50vmin;
+	left: 30vmin;
+	font-size: 2.5vmin;
+}
+
+.text-display {
+	color: #FFF;
+	font: bold 3vmin arial;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0px;
+	word-wrap: break-word;
 }
 
 .pos-f {
@@ -126,48 +125,48 @@ a {
 }
 
 .got-hm-wrapper {
-	left: 160px;
+	left: 18vmin;
 	top: 0px;
 }
 
 .got-hg-wrapper {
-	left: 320px;
+	left: 36vmin;
 	top: 0px;
 }
 
 .got-hc-wrapper {
-	left: 480px;
+	left: 54vmin;
 	top: 0px;
 }
 
 .got-hl-wrapper {
-	left: 640px;
+	left: 72vmin;
 	top: 0px;
 }
 
 .got-hs-wrapper {
 	left: 0px;
-	top: 200px;
+	top: 25vmin;
 }
 
 .got-ht-wrapper {
-	left: 160px;
-	top: 200px;
+	left: 18vmin;
+	top: 25vmin;
 }
 
 .got-htr-wrapper {
-	left: 320px;
-	top: 200px;
+	left: 36vmin;
+	top: 25vmin;
 }
 
 .got-hb-wrapper {
-	left: 480px;
-	top: 200px;
+	left: 54vmin;
+	top: 25vmin;
 }
 
 .got-htu-wrapper {
-	left: 640px;
-	top: 200px;
+	left: 72vmin ;
+	top: 25vmin;
 }
 
 .got__house-list {
@@ -179,6 +178,7 @@ a {
 	overflow: hidden;
 	margin-left: 10px;
 	display: block;
+	width: 25vmin;
 }
 
 .got__house-list--item a {
@@ -210,14 +210,14 @@ a {
 }
 
 .transform-enemy {
-	top: 450px;
+	top: 53vmin;
 	right: 0;
-	left: 640px;
+	left: 72vmin;
 	transform: scale(1.1);
 }
 
 .transform-me {
-	top: 450px;
+	top: 53vmin;
 	left: 0;
 	transform: scale(1.1);
 }
@@ -227,192 +227,50 @@ a {
 }
 
 .lord {
-	top: 100px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	top: 10vmin;
+	left: 41vmin;
 	transform: scale(1.5);
 }
 
 
 @media screen and (max-width: 768px) {
 	.got__house-list--item {
-		width: 150px;
 		padding: 0px;
 		margin: 0px;
+		width: 20vmin;
 	}
+
 	.container{
 		padding: 0px;
 		margin: 0px;
 	}
-	.got-ha-wrapper {
-		left: 0px;
-		top: 0px;
-	}
-
-	.got-hm-wrapper {
-		left: 120px;
-		top: 0px;
-	}
-
-	.got-hg-wrapper {
-		left: 240px;
-		top: 0px;
-	}
-
-	.got-hc-wrapper {
-		left: 360px;
-		top: 0px;
-	}
-
-	.got-hl-wrapper {
-		left: 480px;
-		top: 0px;
-	}
-
-	.got-hs-wrapper {
-		left: 0px;
-		top: 200px;
-	}
-
-	.got-ht-wrapper {
-		left: 120px;
-		top: 200px;
-	}
-
-	.got-htr-wrapper {
-		left: 240px;
-		top: 200px;
-	}
-
-	.got-hb-wrapper {
-		left: 360px;
-		top: 200px;
-	}
-
-	.got-htu-wrapper {
-		left: 480px;
-		top: 200px;
-	}
-
-	.got{
-		padding-left: 5px;
-	}
-
-	.transform-enemy {
-		top: 450px;
-		right: 0;
-		left: 480px;
-		transform: scale(1);
-	}
-
-	.transform-me {
-		top: 450px;
-		left: 5px;
-		transform: scale(1);
-	}
 
 	.buttons-container {
-		top: 420px;
-		left: 176px;
-	}
-
-	.lord {
-		top: 100px;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
-		transform: scale(1.5);
+		top: 50vmin;
+		left: 25vmin;
+		font-size: 2.5vmin;
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.got__house-list--item {
-		width: 80px;
 		padding: 0px;
 		margin: 0px;
+		width: 24vmin;
 	}
+
 	.container{
-		padding: 0px;
+		padding: 5px;
 		margin: 0px;
 	}
-	.got-ha-wrapper {
-		left: 0px;
-		top: 0px;
-	}
 
-	.got-hm-wrapper {
-		left: 60px;
-		top: 0px;
-	}
-
-	.got-hg-wrapper {
-		left: 120px;
-		top: 0px;
-	}
-
-	.got-hc-wrapper {
-		left: 180px;
-		top: 0px;
-	}
-
-	.got-hl-wrapper {
-		left: 240px;
-		top: 0px;
-	}
-
-	.got-hs-wrapper {
-		left: 0px;
-		top: 100px;
-	}
-
-	.got-ht-wrapper {
-		left: 60px;
-		top: 100px;
-	}
-
-	.got-htr-wrapper {
-		left: 120px;
-		top: 100px;
-	}
-
-	.got-hb-wrapper {
-		left: 180px;
-		top: 100px;
-	}
-
-	.got-htu-wrapper {
-		left: 240px;
-		top: 100px;
+	.buttons-container {
+		top: 50vmin;
+		left: 25vmin;
+		font-size: 2.5vmin;
 	}
 
 	.got{
 		padding-left: 5px;
-	}
-
-	.transform-enemy {
-		top: 250px;
-		right: 0;
-		left: 240px;
-		transform: scale(1);
-	}
-
-	.transform-me {
-		top: 250px;
-		left: 5px;
-		transform: scale(1);
-	}
-
-	.buttons-container {
-		top: 400px;
-		left: 20px;
-	}
-
-	.lord {
-		top: 100px;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
-		transform: scale(1.5);
 	}
 }
