@@ -273,4 +273,12 @@ a {
 	.got{
 		padding-left: 5px;
 	}
+
+	.transform-enemy {
+		top: 55vmin;
+	}
+
+	.transform-me {
+		top: 55vmin;
+	}
 }
