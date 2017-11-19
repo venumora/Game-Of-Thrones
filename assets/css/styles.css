@@ -55,6 +55,10 @@ a {
 	text-decoration: none;
 }
 
+.row {
+	margin: 0px;
+}
+
 .clearfix::after {
 	content: "";
 	display: table;
@@ -87,7 +91,7 @@ a {
 }
 
 .buttons-container {
-	top: 50vmin;
+	top: 52vmin;
 	left: 30vmin;
 	font-size: 2.5vmin;
 }
